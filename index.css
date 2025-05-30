@@ -47,14 +47,14 @@ body{
         color: white;
     }
     section{
-        height: 200vh;
+        height: 400vh;
         width: 100%;
         border: 1px solid white;
     }
     .main_img{
         height: 95vh;
         width: 100%;
-        border: 1px solid white;
+        border: 1px solid #230802;
         background-image: url("images/barber_main_cut.png");
         background-repeat: no-repeat;
         background-size:cover;
@@ -68,5 +68,67 @@ body{
         font-weight: 600;
         margin-top: 100px;
         margin-left: 60px;
+    }
+    .title_2{
+        width: 29vw;
+        color: bisque;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    .recording{
+        height: 10vh;
+        width: 20vw;
+        text-align: center;
+        align-content: center;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    .recording>a{
+        width: 14vw;
+        height: 6vh;
+        background-color: darkorange;
+        display: inline-block;
+        color: black;
+        align-content: center;
+        text-decoration: none;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_us{
+        height: 190vh;
+        width: 100%;
+        border: 1px solid white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .About_info{
+        height: 48vh;
+        width: 35vw;
+        border: 1px solid white;
+    }
+    .About_info>p{
+        width: 30vw;
+        border: 1px solid white;
+        color: bisque;
+        margin-top: 10px;
+    }
+    .About_img{
+        height: 48vh;
+        width: 35vw;
+        border: 2px solid bisque;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_img>img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_us_heading{
+        font-size: 2rem;
+        color: bisque;
+        font-weight: 600;
+        font-family:'Times New Roman', Times, serif;
+        text-decoration: underline 2px solid;
     }
 }
