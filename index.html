@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <title>Barbery</title>
 </head>
 <body>
@@ -13,7 +15,7 @@
             <div class="logo">barbery</div>
             <div class="nav_links">
                 <a href="#About_us">About us</a>
-                <a href="">Why us</a>
+                <a href="#why_us">Why us</a>
                 <a href="">Services</a>
                 <a href="">Gallery</a>
                 <a href="">Reviews</a>
@@ -35,12 +37,66 @@
             </div>
             <div class="About_info">
                 <div class="About_us_heading">Our Talented teams</div>
+                <p>Boasting an experienced and talented team of Master Barbers, and mens treatment experts, quality of service and exceptional customer experience has always been at a heart to vist the shop.</p>
             </div>
-            <div class="About_img"></div>
-            <div class="About_img"></div>
+            <div class="About_img"><img src="images/barbers_cutting hair.png" alt=""></div>
+            <div class="About_img"><img src="images/barbers front door.png" alt=""></div>
             <div class="About_info">
-                <div class="About_us_heading">About Us</div>
+                <div class="About_us_heading">Elevate your style</div>
+                <p>Whether you are here for a classic cut, a sharp fade or a luxury grooming experience, Barbery is "Where style begins"</p>
+                <p>Let`s take care of your look while you relax. Visit us today</p>
             </div>
+        </div>
+        <div class="why_us" id="why_us">
+            <div class="why_us_heading">Why Us?</div>
+            <div class="why_us_info">
+                <div>
+                    <i class="bi bi-award-fill"></i>
+                    <p>Our barbers are professionals with years of experience, constantly honing their crafts to exceed your expectations.</p>
+                </div>
+                <div>
+                    <i class="bi bi-person-hearts"></i>
+                    <p>We consider your style, facial features and prefrences to create a look that highlights your individuality</p>
+                </div>
+                <div>
+                    <i class="bi bi-scissors"></i>
+                    <p>We use only premium products and modern equipment to deliver flawless results.</p>
+                </div>
+                <div>
+                    <i class="material-icons"></i>
+                    <p>We provide a comfortable and stylish environment where we can not only refresh your look but also enjoy a moment of relaxation.</p>
+                </div>
+            </div>
+        </div>
+        <div class="services" id="services">
+            <div class="service_heading">Services</div>
+            <div class="service_gallery">
+                <div class="service_img">
+                    <img src="images/beard shave.webp" alt="">
+                    <p>Beard cut</p>
+                    <a href="">Enrol</a>
+                </div>
+                <div class="service_img">
+                    <img src="images/clipper cut.webp" alt="">
+                    <p>Clipper cut</p>
+                    <a href="">Enrol</a>
+                </div>
+                <div class="service_img">
+                    <img src="images/scissor cut.jpg" alt="">
+                    <p>Scissor cut</p>
+                    <a href="">Enrol</a>
+                </div>
+            </div>
+        </div>
+        <div class="book">
+            <div class="book_heading">Book a haircut</div>
+            <form action="">
+                <div class="form_logo">barbery</div>
+                <input type="text" placeholder="Full name" class="name" required><br>
+                <input type="tel" placeholder="phone no" class="number" required><br>
+                <input type="datetime-local" placeholder="date of appointment" class="date" required><br>
+                <input type="submit" class="submit">
+            </form>
         </div>
     </section>
     <footer></footer>
