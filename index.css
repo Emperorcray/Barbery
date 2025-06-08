@@ -47,7 +47,7 @@ body{
         color: white;
     }
     section{
-        height: 500vh;
+        height: 760vh;
         width: 100%;
         border: 1px solid white;
     }
@@ -243,5 +243,175 @@ body{
     .submit{
         cursor: pointer;
         background-color: orange;
+    }
+    .gallery{
+        height: 110vh;
+        width: 100%;
+    }
+    .gallery_heading{
+        width: 100%;
+        color: bisque;
+        text-align: center;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+        font-weight: 600;
+    }
+    /* Slideshow container */
+    .slideshow-container {
+        height: 90vh;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        background-color: black;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+       display: none;
+    }
+    .mySlides>img{
+        height: 80vh;
+        width: 80vw;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+        /* Position the "next button" to the right */
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Caption text */
+        .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+    .Reviews{
+        height: 65vh;
+        width: 100%;
+    }    
+    .review_heading{
+        text-align: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .Review_info{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .Review_info>div{
+        height: 40vh;
+        width: 20vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .review_img{
+        height: 8vh;
+        width: 4vw;
+        border: 1px solid white;
+        border-radius: 28px 28px 28px 28px;
+    }
+    .review_name{
+        width: 10vw;
+        color: white;
+        text-align: center;
+    }
+    .info{
+        height: 25vh;
+        width: 15vw;
+        color: white;
+    }
+    .Map{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .map_img{
+        height: 60vh;
+        width: 80vw;
+        border: 1px solid black;
+        background-color: black;
+    }
+    .map_img>div{
+        height: 8vh;
+        text-align: center;
+        align-content: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: underline 2px solid bisque;
+    }
+    footer{
+        height: 40vh;
+        width: 100%;
+        border: 1px solid white;
     }
 }
