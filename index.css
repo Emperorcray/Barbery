@@ -49,7 +49,6 @@ body{
     section{
         height: 760vh;
         width: 100%;
-        border: 1px solid white;
     }
     .main_img{
         height: 95vh;
@@ -412,6 +411,50 @@ body{
     footer{
         height: 40vh;
         width: 100%;
-        border: 1px solid white;
+        border: 2px solid white;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footer_div{
+        height: 15vh;
+        width: 20vw;
+        align-content: center;
+        text-align: center;
+    }
+    .contact_email{
+        color: white;
+    }
+    .contact_us{
+        height: 15vh;
+        width: 20vw;
+    }
+    .contact_us>p{
+        text-align: center;
+        color: white;
+    }
+    .contact_us_heading{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .follow_us{
+        height: 15vh;
+        width: 10vw;
+    }
+    .follow_us_heading{
+        text-align: center;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .socials{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .socials>a{
+        color: white;
     }
 }
