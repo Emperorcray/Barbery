@@ -12,13 +12,24 @@
 <body>
     <header>
         <nav>
+            <div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" title="close">&times;</a>
+                    <a href="#About">Home</a>
+                    <a href="#Education">Education</a>
+                    <a href="#services">Services</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <span class="sidebar" onclick="openNav()" title="sidemenu">&#9776;</span>
+            </div>
             <div class="logo">barbery</div>
             <div class="nav_links">
                 <a href="#About_us">About us</a>
                 <a href="#why_us">Why us</a>
-                <a href="">Services</a>
-                <a href="">Gallery</a>
-                <a href="">Reviews</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reviews">Reviews</a>
             </div>
         </nav>
     </header>
@@ -74,21 +85,21 @@
                 <div class="service_img">
                     <img src="images/beard shave.webp" alt="">
                     <p>Beard cut</p>
-                    <a href="">Enrol</a>
+                    <a href="#book">Enrol</a>
                 </div>
                 <div class="service_img">
                     <img src="images/clipper cut.webp" alt="">
                     <p>Clipper cut</p>
-                    <a href="">Enrol</a>
+                    <a href="#book">Enrol</a>
                 </div>
                 <div class="service_img">
                     <img src="images/scissor cut.jpg" alt="">
                     <p>Scissor cut</p>
-                    <a href="">Enrol</a>
+                    <a href="#book">Enrol</a>
                 </div>
             </div>
         </div>
-        <div class="book">
+        <div class="book" id="book">
             <div class="book_heading">Book a haircut</div>
             <form action="">
                 <div class="form_logo">barbery</div>
@@ -98,7 +109,7 @@
                 <input type="submit" class="submit">
             </form>
         </div>
-        <div class="gallery">
+        <div class="gallery" id="gallery">
             <div class="gallery_heading">Gallery</div>
             <div class="slideshow-container">
 
@@ -124,7 +135,7 @@
                 </div>
             </div>
         </div>
-        <div class="Reviews">
+        <div class="Reviews" id="reviews">
             <div class="review_heading">Reviews</div>
             <div class="Review_info">
                 <div>
@@ -162,8 +173,8 @@
         <div class="follow_us">
             <div class="follow_us_heading">Follow Us</div>
             <div class="socials">
-                <a href="https://www.facebook.com" target="_blank"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.instagram.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank" title="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com" target="_blank" title="facebook"><i class="bi bi-facebook"></i></a>
             </div>
         </div>
     </footer>

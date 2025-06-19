@@ -7,6 +7,4590 @@ body{
     overflow-x: hidden;
     background-color: #230802;
 }
+@media screen and (min-width:684px) and (max-width:734px){
+    header{
+        height: 12vh;
+        width: 100%;
+    }
+    nav{
+        height: 10vh;
+        width: 100%;
+        position: fixed;
+        background-color:black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .sidebar{
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: #f1f1f1;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+      
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+      
+    .sidenav a:hover {
+        color: bisque;
+    }
+      
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    .logo{
+        width: 20vw;
+        color: bisque;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.8rem;
+        text-align: center;
+        font-weight: 800;
+    }
+    .nav_links{
+        display: none;
+    }
+    section{
+        height: 760vh;
+        width: 100%;
+    }
+    .main_img{
+        height: 95vh;
+        width: 100%;
+        border: 1px solid #230802;
+        background-image: url("images/barber_main_cut.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+    .title_1{
+        width: 35vw;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+    .title_2{
+        width: 35vw;
+        color: bisque;
+        margin-top: 20px;
+        margin-left: 60px;
+        font-size: 13px;
+    }
+    .recording{
+        height: 10vh;
+        width: 30vw;
+        text-align: center;
+        align-content: center;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    .recording>a{
+        width: 20vw;
+        height: 6vh;
+        background-color: darkorange;
+        display: inline-block;
+        color: black;
+        align-content: center;
+        text-decoration: none;
+        border-radius: 10px 10px 10px 10px;
+        font-size: 13px;
+    }
+    .About_us{
+        height: 190vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .About_info{
+        height: 48vh;
+        width: 35vw;
+    }
+    .About_info>p{
+        width: 35vw;
+        color: bisque;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .About_img{
+        height: 48vh;
+        width: 35vw;
+        border: 2px solid bisque;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_img>img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_us_heading{
+        font-size: 1.5rem;
+        color: bisque;
+        font-weight: 600;
+        font-family:'Times New Roman', Times, serif;
+        text-decoration: underline 2px solid;
+    }
+    .why_us{
+        height: 70vh;
+        width: 100%;
+        background-image: url("images/barber\ chair.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+    }
+    .why_us_heading{
+        text-align: center;
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .why_us_info{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .why_us_info>div{
+        height: 20vh;
+        width: 18vw;
+        color: white;
+        font-size: small;
+        text-align: center;
+    }
+    .why_us_info>div>i{
+        color: bisque;
+        font-size: 1.4rem;
+    }
+    .services{
+        height: 60vh;
+        width: 100%;
+    }
+    .service_heading{
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    .service_gallery{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .service_img{
+        height: 33vh;
+        width: 24vw;
+    }
+    .service_img>img{
+        height: 25vh;
+        width: 100%;
+        border-radius: 6px 6px 6px 6px;
+        border: 2px solid white;
+    }
+    .service_img>p{
+        color: bisque;
+        text-decoration: underline 1px solid bisque;
+    }
+    .service_img>a{
+        color: orange;
+    }
+    .book{
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .book_heading{
+        color: bisque;
+        font-size: 1.5rem;
+        text-decoration: underline 2px solid bisque;
+    }
+    form{
+        height: 40vh;
+        width: 40vw;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .form_logo{
+        height: 6vh;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+        align-content: center;
+    }
+    input{
+        margin-left: 40px;
+        margin-top: 10px;
+        height: 5vh;
+        width: 28vw;
+        border-radius: 14px 14px 14px 14px;
+        border: 1px solid;
+    }
+    .name,.number,.date{
+        text-indent: 10px;
+    }
+    .name:focus,.number:focus,.date:focus{
+        outline: none;
+    }
+    .submit{
+        cursor: pointer;
+        background-color: orange;
+    }
+    .gallery{
+        height: 110vh;
+        width: 100%;
+    }
+    .gallery_heading{
+        width: 100%;
+        color: bisque;
+        text-align: center;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+        font-weight: 600;
+    }
+    /* Slideshow container */
+    .slideshow-container {
+        height: 90vh;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        background-color: black;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+       display: none;
+    }
+    .mySlides>img{
+        height: 80vh;
+        width: 80vw;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+        /* Position the "next button" to the right */
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Caption text */
+        .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+    .Reviews{
+        height: 65vh;
+        width: 100%;
+    }    
+    .review_heading{
+        text-align: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .Review_info{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .Review_info>div{
+        height: 40vh;
+        width: 20vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .review_img{
+        height: 6vh;
+        width: 5vw;
+        border: 1px solid white;
+        border-radius: 28px 28px 28px 28px;
+    }
+    .review_name{
+        width: 10vw;
+        color: white;
+        text-align: center;
+    }
+    .info{
+        height: 25vh;
+        width: 15vw;
+        color: white;
+        font-size: 13px;
+    }
+    .Map{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .map_img{
+        height: 60vh;
+        width: 80vw;
+        border: 1px solid black;
+        background-color: black;
+    }
+    .map_img>div{
+        height: 8vh;
+        text-align: center;
+        align-content: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: underline 2px solid bisque;
+    }
+    footer{
+        height: 40vh;
+        width: 100%;
+        border: 2px solid white;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footer_div{
+        height: 15vh;
+        width: 20vw;
+        align-content: center;
+        text-align: center;
+    }
+    .contact_email{
+        color: white;
+    }
+    .contact_us{
+        height: 15vh;
+        width: 20vw;
+        align-content: center;
+    }
+    .contact_us>p{
+        text-align: center;
+        color: white;
+    }
+    .contact_us_heading{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .follow_us{
+        height: 15vh;
+        width: 15vw;
+        align-content: center;
+    }
+    .follow_us_heading{
+        text-align: center;
+        color: white;
+        font-size: 1.2rem;
+    }
+    .socials{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .socials>a{
+        color: white;
+    }
+}
+@media screen and (min-width:735px) and (max-width:785px){
+    header{
+        height: 12vh;
+        width: 100%;
+    }
+    nav{
+        height: 10vh;
+        width: 100%;
+        position: fixed;
+        background-color:black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .logo{
+        width: 20vw;
+        color: bisque;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .nav_links{
+        height: 8vh;
+        width: 43vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .nav_links>a{
+        display: inline-block;
+        text-decoration: none;
+        color: gray;
+        height: 4vh;
+        width: 8vw;
+        text-align: center;
+        font-size: 13px;
+    }
+    .nav_links>a:hover{
+        color: white;
+    }
+    section{
+        height: 760vh;
+        width: 100%;
+    }
+    .main_img{
+        height: 95vh;
+        width: 100%;
+        border: 1px solid #230802;
+        background-image: url("images/barber_main_cut.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+    .title_1{
+        width: 35vw;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+    .title_2{
+        width: 35vw;
+        color: bisque;
+        margin-top: 20px;
+        margin-left: 60px;
+        font-size: 13px;
+    }
+    .recording{
+        height: 10vh;
+        width: 30vw;
+        text-align: center;
+        align-content: center;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    .recording>a{
+        width: 20vw;
+        height: 6vh;
+        background-color: darkorange;
+        display: inline-block;
+        color: black;
+        align-content: center;
+        text-decoration: none;
+        border-radius: 10px 10px 10px 10px;
+        font-size: 13px;
+    }
+    .About_us{
+        height: 190vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .About_info{
+        height: 48vh;
+        width: 35vw;
+    }
+    .About_info>p{
+        width: 35vw;
+        color: bisque;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .About_img{
+        height: 48vh;
+        width: 35vw;
+        border: 2px solid bisque;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_img>img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_us_heading{
+        font-size: 1.5rem;
+        color: bisque;
+        font-weight: 600;
+        font-family:'Times New Roman', Times, serif;
+        text-decoration: underline 2px solid;
+    }
+    .why_us{
+        height: 70vh;
+        width: 100%;
+        background-image: url("images/barber\ chair.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+    }
+    .why_us_heading{
+        text-align: center;
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .why_us_info{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .why_us_info>div{
+        height: 20vh;
+        width: 18vw;
+        color: white;
+        font-size: small;
+        text-align: center;
+    }
+    .why_us_info>div>i{
+        color: bisque;
+        font-size: 1.4rem;
+    }
+    .services{
+        height: 60vh;
+        width: 100%;
+    }
+    .service_heading{
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    .service_gallery{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .service_img{
+        height: 33vh;
+        width: 24vw;
+    }
+    .service_img>img{
+        height: 25vh;
+        width: 100%;
+        border-radius: 6px 6px 6px 6px;
+        border: 2px solid white;
+    }
+    .service_img>p{
+        color: bisque;
+        text-decoration: underline 1px solid bisque;
+    }
+    .service_img>a{
+        color: orange;
+    }
+    .book{
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .book_heading{
+        color: bisque;
+        font-size: 1.5rem;
+        text-decoration: underline 2px solid bisque;
+    }
+    form{
+        height: 40vh;
+        width: 40vw;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .form_logo{
+        height: 6vh;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+        align-content: center;
+    }
+    input{
+        margin-left: 60px;
+        margin-top: 10px;
+        height: 5vh;
+        width: 25vw;
+        border-radius: 14px 14px 14px 14px;
+        border: 1px solid;
+    }
+    .name,.number,.date{
+        text-indent: 10px;
+    }
+    .name:focus,.number:focus,.date:focus{
+        outline: none;
+    }
+    .submit{
+        cursor: pointer;
+        background-color: orange;
+    }
+    .gallery{
+        height: 110vh;
+        width: 100%;
+    }
+    .gallery_heading{
+        width: 100%;
+        color: bisque;
+        text-align: center;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+        font-weight: 600;
+    }
+    /* Slideshow container */
+    .slideshow-container {
+        height: 90vh;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        background-color: black;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+       display: none;
+    }
+    .mySlides>img{
+        height: 80vh;
+        width: 80vw;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+        /* Position the "next button" to the right */
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Caption text */
+        .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+    .Reviews{
+        height: 65vh;
+        width: 100%;
+    }    
+    .review_heading{
+        text-align: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .Review_info{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .Review_info>div{
+        height: 40vh;
+        width: 20vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .review_img{
+        height: 6vh;
+        width: 4vw;
+        border: 1px solid white;
+        border-radius: 28px 28px 28px 28px;
+    }
+    .review_name{
+        width: 10vw;
+        color: white;
+        text-align: center;
+    }
+    .info{
+        height: 25vh;
+        width: 15vw;
+        color: white;
+        font-size: 13px;
+    }
+    .Map{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .map_img{
+        height: 60vh;
+        width: 80vw;
+        border: 1px solid black;
+        background-color: black;
+    }
+    .map_img>div{
+        height: 8vh;
+        text-align: center;
+        align-content: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: underline 2px solid bisque;
+    }
+    footer{
+        height: 40vh;
+        width: 100%;
+        border: 2px solid white;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footer_div{
+        height: 15vh;
+        width: 20vw;
+        align-content: center;
+        text-align: center;
+    }
+    .contact_email{
+        color: white;
+    }
+    .contact_us{
+        height: 15vh;
+        width: 20vw;
+        align-content: center;
+    }
+    .contact_us>p{
+        text-align: center;
+        color: white;
+    }
+    .contact_us_heading{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .follow_us{
+        height: 15vh;
+        width: 15vw;
+        align-content: center;
+    }
+    .follow_us_heading{
+        text-align: center;
+        color: white;
+        font-size: 1.2rem;
+    }
+    .socials{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .socials>a{
+        color: white;
+    }
+}
+@media screen and (min-width:786px) and (max-width:836px){
+    header{
+        height: 12vh;
+        width: 100%;
+    }
+    nav{
+        height: 10vh;
+        width: 100%;
+        position: fixed;
+        background-color:black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .logo{
+        width: 20vw;
+        color: bisque;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .nav_links{
+        height: 8vh;
+        width: 43vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .nav_links>a{
+        display: inline-block;
+        text-decoration: none;
+        color: gray;
+        height: 4vh;
+        width: 8vw;
+        text-align: center;
+        font-size: 13px;
+    }
+    .nav_links>a:hover{
+        color: white;
+    }
+    section{
+        height: 760vh;
+        width: 100%;
+    }
+    .main_img{
+        height: 95vh;
+        width: 100%;
+        border: 1px solid #230802;
+        background-image: url("images/barber_main_cut.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+    .title_1{
+        width: 29vw;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.3rem;
+        font-weight: 600;
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+    .title_2{
+        width: 29vw;
+        color: bisque;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    .recording{
+        height: 10vh;
+        width: 20vw;
+        text-align: center;
+        align-content: center;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    .recording>a{
+        width: 14vw;
+        height: 6vh;
+        background-color: darkorange;
+        display: inline-block;
+        color: black;
+        align-content: center;
+        text-decoration: none;
+        border-radius: 10px 10px 10px 10px;
+        font-size: 13px;
+    }
+    .About_us{
+        height: 190vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .About_info{
+        height: 48vh;
+        width: 35vw;
+    }
+    .About_info>p{
+        width: 30vw;
+        color: bisque;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .About_img{
+        height: 48vh;
+        width: 35vw;
+        border: 2px solid bisque;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_img>img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_us_heading{
+        font-size: 2rem;
+        color: bisque;
+        font-weight: 600;
+        font-family:'Times New Roman', Times, serif;
+        text-decoration: underline 2px solid;
+    }
+    .why_us{
+        height: 70vh;
+        width: 100%;
+        background-image: url("images/barber\ chair.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+    }
+    .why_us_heading{
+        text-align: center;
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .why_us_info{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .why_us_info>div{
+        height: 20vh;
+        width: 18vw;
+        color: white;
+        font-size: small;
+        text-align: center;
+    }
+    .why_us_info>div>i{
+        color: bisque;
+        font-size: 1.4rem;
+    }
+    .services{
+        height: 60vh;
+        width: 100%;
+    }
+    .service_heading{
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    .service_gallery{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .service_img{
+        height: 34vh;
+        width: 20vw;
+    }
+    .service_img>img{
+        height: 25vh;
+        width: 100%;
+        border-radius: 6px 6px 6px 6px;
+        border: 2px solid white;
+    }
+    .service_img>p{
+        color: bisque;
+        text-decoration: underline 1px solid bisque;
+    }
+    .service_img>a{
+        color: orange;
+    }
+    .book{
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .book_heading{
+        color: bisque;
+        font-size: 1.5rem;
+        text-decoration: underline 2px solid bisque;
+    }
+    form{
+        height: 40vh;
+        width: 40vw;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .form_logo{
+        height: 6vh;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+        align-content: center;
+    }
+    input{
+        margin-left: 60px;
+        margin-top: 10px;
+        height: 5vh;
+        width: 25vw;
+        border-radius: 14px 14px 14px 14px;
+        border: 1px solid;
+    }
+    .name,.number,.date{
+        text-indent: 10px;
+    }
+    .name:focus,.number:focus,.date:focus{
+        outline: none;
+    }
+    .submit{
+        cursor: pointer;
+        background-color: orange;
+    }
+    .gallery{
+        height: 110vh;
+        width: 100%;
+    }
+    .gallery_heading{
+        width: 100%;
+        color: bisque;
+        text-align: center;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+        font-weight: 600;
+    }
+    /* Slideshow container */
+    .slideshow-container {
+        height: 90vh;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        background-color: black;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+       display: none;
+    }
+    .mySlides>img{
+        height: 80vh;
+        width: 80vw;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+        /* Position the "next button" to the right */
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Caption text */
+        .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+    .Reviews{
+        height: 65vh;
+        width: 100%;
+    }    
+    .review_heading{
+        text-align: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .Review_info{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .Review_info>div{
+        height: 40vh;
+        width: 20vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .review_img{
+        height: 6vh;
+        width: 4vw;
+        border: 1px solid white;
+        border-radius: 28px 28px 28px 28px;
+    }
+    .review_name{
+        width: 10vw;
+        color: white;
+        text-align: center;
+    }
+    .info{
+        height: 25vh;
+        width: 15vw;
+        color: white;
+        font-size: 13px;
+    }
+    .Map{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .map_img{
+        height: 60vh;
+        width: 80vw;
+        border: 1px solid black;
+        background-color: black;
+    }
+    .map_img>div{
+        height: 8vh;
+        text-align: center;
+        align-content: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: underline 2px solid bisque;
+    }
+    footer{
+        height: 40vh;
+        width: 100%;
+        border: 2px solid white;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footer_div{
+        height: 15vh;
+        width: 20vw;
+        align-content: center;
+        text-align: center;
+    }
+    .contact_email{
+        color: white;
+    }
+    .contact_us{
+        height: 15vh;
+        width: 20vw;
+        align-content: center;
+    }
+    .contact_us>p{
+        text-align: center;
+        color: white;
+    }
+    .contact_us_heading{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .follow_us{
+        height: 15vh;
+        width: 15vw;
+        align-content: center;
+    }
+    .follow_us_heading{
+        text-align: center;
+        color: white;
+        font-size: 1.2rem;
+    }
+    .socials{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .socials>a{
+        color: white;
+    }
+}
+@media screen and (min-width:837px) and (max-width:887px){
+    header{
+        height: 12vh;
+        width: 100%;
+    }
+    nav{
+        height: 10vh;
+        width: 100%;
+        position: fixed;
+        background-color:black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .logo{
+        width: 20vw;
+        color: bisque;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .nav_links{
+        height: 8vh;
+        width: 43vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .nav_links>a{
+        display: inline-block;
+        text-decoration: none;
+        color: gray;
+        height: 4vh;
+        width: 8vw;
+        text-align: center;
+        font-size: 13px;
+    }
+    .nav_links>a:hover{
+        color: white;
+    }
+    section{
+        height: 760vh;
+        width: 100%;
+    }
+    .main_img{
+        height: 95vh;
+        width: 100%;
+        border: 1px solid #230802;
+        background-image: url("images/barber_main_cut.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+    .title_1{
+        width: 29vw;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.3rem;
+        font-weight: 600;
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+    .title_2{
+        width: 29vw;
+        color: bisque;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    .recording{
+        height: 10vh;
+        width: 20vw;
+        text-align: center;
+        align-content: center;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    .recording>a{
+        width: 14vw;
+        height: 6vh;
+        background-color: darkorange;
+        display: inline-block;
+        color: black;
+        align-content: center;
+        text-decoration: none;
+        border-radius: 10px 10px 10px 10px;
+        font-size: 13px;
+    }
+    .About_us{
+        height: 190vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .About_info{
+        height: 48vh;
+        width: 35vw;
+    }
+    .About_info>p{
+        width: 30vw;
+        color: bisque;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .About_img{
+        height: 48vh;
+        width: 35vw;
+        border: 2px solid bisque;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_img>img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_us_heading{
+        font-size: 2rem;
+        color: bisque;
+        font-weight: 600;
+        font-family:'Times New Roman', Times, serif;
+        text-decoration: underline 2px solid;
+    }
+    .why_us{
+        height: 70vh;
+        width: 100%;
+        background-image: url("images/barber\ chair.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+    }
+    .why_us_heading{
+        text-align: center;
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .why_us_info{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .why_us_info>div{
+        height: 20vh;
+        width: 18vw;
+        color: white;
+        font-size: small;
+        text-align: center;
+    }
+    .why_us_info>div>i{
+        color: bisque;
+        font-size: 1.4rem;
+    }
+    .services{
+        height: 60vh;
+        width: 100%;
+    }
+    .service_heading{
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    .service_gallery{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .service_img{
+        height: 34vh;
+        width: 20vw;
+    }
+    .service_img>img{
+        height: 25vh;
+        width: 100%;
+        border-radius: 6px 6px 6px 6px;
+        border: 2px solid white;
+    }
+    .service_img>p{
+        color: bisque;
+        text-decoration: underline 1px solid bisque;
+    }
+    .service_img>a{
+        color: orange;
+    }
+    .book{
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .book_heading{
+        color: bisque;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+    }
+    form{
+        height: 40vh;
+        width: 30vw;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .form_logo{
+        height: 6vh;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+        align-content: center;
+    }
+    input{
+        margin-left: 60px;
+        margin-top: 10px;
+        height: 5vh;
+        width: 20vw;
+        border-radius: 14px 14px 14px 14px;
+        border: 1px solid;
+    }
+    .name,.number,.date{
+        text-indent: 10px;
+    }
+    .name:focus,.number:focus,.date:focus{
+        outline: none;
+    }
+    .submit{
+        cursor: pointer;
+        background-color: orange;
+    }
+    .gallery{
+        height: 110vh;
+        width: 100%;
+    }
+    .gallery_heading{
+        width: 100%;
+        color: bisque;
+        text-align: center;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+        font-weight: 600;
+    }
+    /* Slideshow container */
+    .slideshow-container {
+        height: 90vh;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        background-color: black;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+       display: none;
+    }
+    .mySlides>img{
+        height: 80vh;
+        width: 80vw;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+        /* Position the "next button" to the right */
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Caption text */
+        .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+    .Reviews{
+        height: 65vh;
+        width: 100%;
+    }    
+    .review_heading{
+        text-align: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .Review_info{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .Review_info>div{
+        height: 40vh;
+        width: 20vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .review_img{
+        height: 7vh;
+        width: 4vw;
+        border: 1px solid white;
+        border-radius: 28px 28px 28px 28px;
+    }
+    .review_name{
+        width: 10vw;
+        color: white;
+        text-align: center;
+    }
+    .info{
+        height: 25vh;
+        width: 15vw;
+        color: white;
+        font-size: 13px;
+    }
+    .Map{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .map_img{
+        height: 60vh;
+        width: 80vw;
+        border: 1px solid black;
+        background-color: black;
+    }
+    .map_img>div{
+        height: 8vh;
+        text-align: center;
+        align-content: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: underline 2px solid bisque;
+    }
+    footer{
+        height: 40vh;
+        width: 100%;
+        border: 2px solid white;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footer_div{
+        height: 15vh;
+        width: 20vw;
+        align-content: center;
+        text-align: center;
+    }
+    .contact_email{
+        color: white;
+    }
+    .contact_us{
+        height: 15vh;
+        width: 20vw;
+    }
+    .contact_us>p{
+        text-align: center;
+        color: white;
+    }
+    .contact_us_heading{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .follow_us{
+        height: 15vh;
+        width: 10vw;
+        align-content: center;
+    }
+    .follow_us_heading{
+        text-align: center;
+        color: white;
+        font-size: 1.2rem;
+    }
+    .socials{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .socials>a{
+        color: white;
+    }
+}
+@media screen and (min-width:888px) and (max-width:938px){
+    header{
+        height: 12vh;
+        width: 100%;
+    }
+    nav{
+        height: 10vh;
+        width: 100%;
+        position: fixed;
+        background-color:black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .logo{
+        width: 20vw;
+        color: bisque;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .nav_links{
+        height: 8vh;
+        width: 40vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .nav_links>a{
+        display: inline-block;
+        text-decoration: none;
+        color: gray;
+        height: 4vh;
+        width: 6vw;
+        text-align: center;
+        font-size: 13px;
+    }
+    .nav_links>a:hover{
+        color: white;
+    }
+    section{
+        height: 760vh;
+        width: 100%;
+    }
+    .main_img{
+        height: 95vh;
+        width: 100%;
+        border: 1px solid #230802;
+        background-image: url("images/barber_main_cut.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+    .title_1{
+        width: 29vw;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.3rem;
+        font-weight: 600;
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+    .title_2{
+        width: 29vw;
+        color: bisque;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    .recording{
+        height: 10vh;
+        width: 20vw;
+        text-align: center;
+        align-content: center;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    .recording>a{
+        width: 14vw;
+        height: 6vh;
+        background-color: darkorange;
+        display: inline-block;
+        color: black;
+        align-content: center;
+        text-decoration: none;
+        border-radius: 10px 10px 10px 10px;
+        font-size: 13px;
+    }
+    .About_us{
+        height: 190vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .About_info{
+        height: 48vh;
+        width: 35vw;
+    }
+    .About_info>p{
+        width: 30vw;
+        color: bisque;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .About_img{
+        height: 48vh;
+        width: 35vw;
+        border: 2px solid bisque;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_img>img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_us_heading{
+        font-size: 2rem;
+        color: bisque;
+        font-weight: 600;
+        font-family:'Times New Roman', Times, serif;
+        text-decoration: underline 2px solid;
+    }
+    .why_us{
+        height: 70vh;
+        width: 100%;
+        background-image: url("images/barber\ chair.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+    }
+    .why_us_heading{
+        text-align: center;
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .why_us_info{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .why_us_info>div{
+        height: 20vh;
+        width: 18vw;
+        color: white;
+        font-size: small;
+        text-align: center;
+    }
+    .why_us_info>div>i{
+        color: bisque;
+        font-size: 1.4rem;
+    }
+    .services{
+        height: 60vh;
+        width: 100%;
+    }
+    .service_heading{
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    .service_gallery{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .service_img{
+        height: 34vh;
+        width: 20vw;
+    }
+    .service_img>img{
+        height: 25vh;
+        width: 100%;
+        border-radius: 6px 6px 6px 6px;
+        border: 2px solid white;
+    }
+    .service_img>p{
+        color: bisque;
+        text-decoration: underline 1px solid bisque;
+    }
+    .service_img>a{
+        color: orange;
+    }
+    .book{
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .book_heading{
+        color: bisque;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+    }
+    form{
+        height: 40vh;
+        width: 30vw;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .form_logo{
+        height: 6vh;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+        align-content: center;
+    }
+    input{
+        margin-left: 60px;
+        margin-top: 10px;
+        height: 5vh;
+        width: 20vw;
+        border-radius: 14px 14px 14px 14px;
+        border: 1px solid;
+    }
+    .name,.number,.date{
+        text-indent: 10px;
+    }
+    .name:focus,.number:focus,.date:focus{
+        outline: none;
+    }
+    .submit{
+        cursor: pointer;
+        background-color: orange;
+    }
+    .gallery{
+        height: 110vh;
+        width: 100%;
+    }
+    .gallery_heading{
+        width: 100%;
+        color: bisque;
+        text-align: center;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+        font-weight: 600;
+    }
+    /* Slideshow container */
+    .slideshow-container {
+        height: 90vh;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        background-color: black;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+       display: none;
+    }
+    .mySlides>img{
+        height: 80vh;
+        width: 80vw;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+        /* Position the "next button" to the right */
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Caption text */
+        .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+    .Reviews{
+        height: 65vh;
+        width: 100%;
+    }    
+    .review_heading{
+        text-align: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .Review_info{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .Review_info>div{
+        height: 40vh;
+        width: 20vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .review_img{
+        height: 7vh;
+        width: 4vw;
+        border: 1px solid white;
+        border-radius: 28px 28px 28px 28px;
+    }
+    .review_name{
+        width: 10vw;
+        color: white;
+        text-align: center;
+    }
+    .info{
+        height: 25vh;
+        width: 15vw;
+        color: white;
+        font-size: 13px;
+    }
+    .Map{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .map_img{
+        height: 60vh;
+        width: 80vw;
+        border: 1px solid black;
+        background-color: black;
+    }
+    .map_img>div{
+        height: 8vh;
+        text-align: center;
+        align-content: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: underline 2px solid bisque;
+    }
+    footer{
+        height: 40vh;
+        width: 100%;
+        border: 2px solid white;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footer_div{
+        height: 15vh;
+        width: 20vw;
+        align-content: center;
+        text-align: center;
+    }
+    .contact_email{
+        color: white;
+    }
+    .contact_us{
+        height: 15vh;
+        width: 20vw;
+    }
+    .contact_us>p{
+        text-align: center;
+        color: white;
+    }
+    .contact_us_heading{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .follow_us{
+        height: 15vh;
+        width: 10vw;
+        align-content: center;
+    }
+    .follow_us_heading{
+        text-align: center;
+        color: white;
+        font-size: 1.2rem;
+    }
+    .socials{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .socials>a{
+        color: white;
+    }
+}
+@media screen and (min-width:939px) and (max-width:989px){
+    header{
+        height: 12vh;
+        width: 100%;
+    }
+    nav{
+        height: 10vh;
+        width: 100%;
+        position: fixed;
+        background-color:black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .logo{
+        width: 20vw;
+        color: bisque;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .nav_links{
+        height: 8vh;
+        width: 40vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .nav_links>a{
+        display: inline-block;
+        text-decoration: none;
+        color: gray;
+        height: 4vh;
+        width: 6vw;
+        text-align: center;
+        font-size: 13px;
+    }
+    .nav_links>a:hover{
+        color: white;
+    }
+    section{
+        height: 760vh;
+        width: 100%;
+    }
+    .main_img{
+        height: 95vh;
+        width: 100%;
+        border: 1px solid #230802;
+        background-image: url("images/barber_main_cut.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+    .title_1{
+        width: 29vw;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.3rem;
+        font-weight: 600;
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+    .title_2{
+        width: 29vw;
+        color: bisque;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    .recording{
+        height: 10vh;
+        width: 20vw;
+        text-align: center;
+        align-content: center;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    .recording>a{
+        width: 14vw;
+        height: 6vh;
+        background-color: darkorange;
+        display: inline-block;
+        color: black;
+        align-content: center;
+        text-decoration: none;
+        border-radius: 10px 10px 10px 10px;
+        font-size: 13px;
+    }
+    .About_us{
+        height: 190vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .About_info{
+        height: 48vh;
+        width: 35vw;
+    }
+    .About_info>p{
+        width: 30vw;
+        color: bisque;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .About_img{
+        height: 48vh;
+        width: 35vw;
+        border: 2px solid bisque;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_img>img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_us_heading{
+        font-size: 2rem;
+        color: bisque;
+        font-weight: 600;
+        font-family:'Times New Roman', Times, serif;
+        text-decoration: underline 2px solid;
+    }
+    .why_us{
+        height: 70vh;
+        width: 100%;
+        background-image: url("images/barber\ chair.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+    }
+    .why_us_heading{
+        text-align: center;
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .why_us_info{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .why_us_info>div{
+        height: 20vh;
+        width: 18vw;
+        color: white;
+        font-size: small;
+        text-align: center;
+    }
+    .why_us_info>div>i{
+        color: bisque;
+        font-size: 1.4rem;
+    }
+    .services{
+        height: 60vh;
+        width: 100%;
+    }
+    .service_heading{
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    .service_gallery{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .service_img{
+        height: 34vh;
+        width: 20vw;
+    }
+    .service_img>img{
+        height: 25vh;
+        width: 100%;
+        border-radius: 6px 6px 6px 6px;
+        border: 2px solid white;
+    }
+    .service_img>p{
+        color: bisque;
+        text-decoration: underline 1px solid bisque;
+    }
+    .service_img>a{
+        color: orange;
+    }
+    .book{
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .book_heading{
+        color: bisque;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+    }
+    form{
+        height: 40vh;
+        width: 30vw;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .form_logo{
+        height: 6vh;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+        align-content: center;
+    }
+    input{
+        margin-left: 60px;
+        margin-top: 10px;
+        height: 5vh;
+        width: 20vw;
+        border-radius: 14px 14px 14px 14px;
+        border: 1px solid;
+    }
+    .name,.number,.date{
+        text-indent: 10px;
+    }
+    .name:focus,.number:focus,.date:focus{
+        outline: none;
+    }
+    .submit{
+        cursor: pointer;
+        background-color: orange;
+    }
+    .gallery{
+        height: 110vh;
+        width: 100%;
+    }
+    .gallery_heading{
+        width: 100%;
+        color: bisque;
+        text-align: center;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+        font-weight: 600;
+    }
+    /* Slideshow container */
+    .slideshow-container {
+        height: 90vh;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        background-color: black;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+       display: none;
+    }
+    .mySlides>img{
+        height: 80vh;
+        width: 80vw;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+        /* Position the "next button" to the right */
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Caption text */
+        .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+    .Reviews{
+        height: 65vh;
+        width: 100%;
+    }    
+    .review_heading{
+        text-align: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .Review_info{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .Review_info>div{
+        height: 40vh;
+        width: 20vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .review_img{
+        height: 7vh;
+        width: 4vw;
+        border: 1px solid white;
+        border-radius: 28px 28px 28px 28px;
+    }
+    .review_name{
+        width: 10vw;
+        color: white;
+        text-align: center;
+    }
+    .info{
+        height: 25vh;
+        width: 15vw;
+        color: white;
+        font-size: 13px;
+    }
+    .Map{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .map_img{
+        height: 60vh;
+        width: 80vw;
+        border: 1px solid black;
+        background-color: black;
+    }
+    .map_img>div{
+        height: 8vh;
+        text-align: center;
+        align-content: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: underline 2px solid bisque;
+    }
+    footer{
+        height: 40vh;
+        width: 100%;
+        border: 2px solid white;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footer_div{
+        height: 15vh;
+        width: 20vw;
+        align-content: center;
+        text-align: center;
+    }
+    .contact_email{
+        color: white;
+    }
+    .contact_us{
+        height: 15vh;
+        width: 20vw;
+    }
+    .contact_us>p{
+        text-align: center;
+        color: white;
+    }
+    .contact_us_heading{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .follow_us{
+        height: 15vh;
+        width: 10vw;
+        align-content: center;
+    }
+    .follow_us_heading{
+        text-align: center;
+        color: white;
+        font-size: 1.2rem;
+    }
+    .socials{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .socials>a{
+        color: white;
+    }
+}
+@media screen and (min-width:990px) and (max-width:1046px){
+    header{
+        height: 12vh;
+        width: 100%;
+    }
+    nav{
+        height: 10vh;
+        width: 100%;
+        position: fixed;
+        background-color:black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .logo{
+        width: 20vw;
+        color: bisque;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .nav_links{
+        height: 8vh;
+        width: 40vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .nav_links>a{
+        display: inline-block;
+        text-decoration: none;
+        color: gray;
+        height: 4vh;
+        width: 6vw;
+        text-align: center;
+        font-size: 13px;
+    }
+    .nav_links>a:hover{
+        color: white;
+    }
+    section{
+        height: 760vh;
+        width: 100%;
+    }
+    .main_img{
+        height: 95vh;
+        width: 100%;
+        border: 1px solid #230802;
+        background-image: url("images/barber_main_cut.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+    .title_1{
+        width: 29vw;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.3rem;
+        font-weight: 600;
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+    .title_2{
+        width: 29vw;
+        color: bisque;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    .recording{
+        height: 10vh;
+        width: 20vw;
+        text-align: center;
+        align-content: center;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    .recording>a{
+        width: 14vw;
+        height: 6vh;
+        background-color: darkorange;
+        display: inline-block;
+        color: black;
+        align-content: center;
+        text-decoration: none;
+        border-radius: 10px 10px 10px 10px;
+        font-size: 13px;
+    }
+    .About_us{
+        height: 190vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .About_info{
+        height: 48vh;
+        width: 35vw;
+    }
+    .About_info>p{
+        width: 30vw;
+        color: bisque;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .About_img{
+        height: 48vh;
+        width: 35vw;
+        border: 2px solid bisque;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_img>img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_us_heading{
+        font-size: 2rem;
+        color: bisque;
+        font-weight: 600;
+        font-family:'Times New Roman', Times, serif;
+        text-decoration: underline 2px solid;
+    }
+    .why_us{
+        height: 70vh;
+        width: 100%;
+        background-image: url("images/barber\ chair.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+    }
+    .why_us_heading{
+        text-align: center;
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .why_us_info{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .why_us_info>div{
+        height: 20vh;
+        width: 18vw;
+        color: white;
+        font-size: small;
+        text-align: center;
+    }
+    .why_us_info>div>i{
+        color: bisque;
+        font-size: 1.4rem;
+    }
+    .services{
+        height: 60vh;
+        width: 100%;
+    }
+    .service_heading{
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    .service_gallery{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .service_img{
+        height: 34vh;
+        width: 20vw;
+    }
+    .service_img>img{
+        height: 25vh;
+        width: 100%;
+        border-radius: 6px 6px 6px 6px;
+        border: 2px solid white;
+    }
+    .service_img>p{
+        color: bisque;
+        text-decoration: underline 1px solid bisque;
+    }
+    .service_img>a{
+        color: orange;
+    }
+    .book{
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .book_heading{
+        color: bisque;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+    }
+    form{
+        height: 40vh;
+        width: 30vw;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .form_logo{
+        height: 6vh;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+        align-content: center;
+    }
+    input{
+        margin-left: 60px;
+        margin-top: 10px;
+        height: 5vh;
+        width: 20vw;
+        border-radius: 14px 14px 14px 14px;
+        border: 1px solid;
+    }
+    .name,.number,.date{
+        text-indent: 10px;
+    }
+    .name:focus,.number:focus,.date:focus{
+        outline: none;
+    }
+    .submit{
+        cursor: pointer;
+        background-color: orange;
+    }
+    .gallery{
+        height: 110vh;
+        width: 100%;
+    }
+    .gallery_heading{
+        width: 100%;
+        color: bisque;
+        text-align: center;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+        font-weight: 600;
+    }
+    /* Slideshow container */
+    .slideshow-container {
+        height: 90vh;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        background-color: black;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+       display: none;
+    }
+    .mySlides>img{
+        height: 80vh;
+        width: 80vw;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+        /* Position the "next button" to the right */
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Caption text */
+        .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+    .Reviews{
+        height: 65vh;
+        width: 100%;
+    }    
+    .review_heading{
+        text-align: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .Review_info{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .Review_info>div{
+        height: 40vh;
+        width: 20vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .review_img{
+        height: 7vh;
+        width: 4vw;
+        border: 1px solid white;
+        border-radius: 28px 28px 28px 28px;
+    }
+    .review_name{
+        width: 10vw;
+        color: white;
+        text-align: center;
+    }
+    .info{
+        height: 25vh;
+        width: 15vw;
+        color: white;
+        font-size: 13px;
+    }
+    .Map{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .map_img{
+        height: 60vh;
+        width: 80vw;
+        border: 1px solid black;
+        background-color: black;
+    }
+    .map_img>div{
+        height: 8vh;
+        text-align: center;
+        align-content: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: underline 2px solid bisque;
+    }
+    footer{
+        height: 40vh;
+        width: 100%;
+        border: 2px solid white;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footer_div{
+        height: 15vh;
+        width: 20vw;
+        align-content: center;
+        text-align: center;
+    }
+    .contact_email{
+        color: white;
+    }
+    .contact_us{
+        height: 15vh;
+        width: 20vw;
+    }
+    .contact_us>p{
+        text-align: center;
+        color: white;
+    }
+    .contact_us_heading{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .follow_us{
+        height: 15vh;
+        width: 10vw;
+        align-content: center;
+    }
+    .follow_us_heading{
+        text-align: center;
+        color: white;
+        font-size: 1.2rem;
+    }
+    .socials{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .socials>a{
+        color: white;
+    }
+}
+@media screen and (min-width:1047px) and (max-width:1097px){
+    header{
+        height: 12vh;
+        width: 100%;
+    }
+    nav{
+        height: 10vh;
+        width: 100%;
+        position: fixed;
+        background-color:black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .logo{
+        width: 20vw;
+        color: bisque;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .nav_links{
+        height: 8vh;
+        width: 40vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .nav_links>a{
+        display: inline-block;
+        text-decoration: none;
+        color: gray;
+        height: 4vh;
+        width: 6vw;
+        text-align: center;
+        font-size: 13px;
+    }
+    .nav_links>a:hover{
+        color: white;
+    }
+    section{
+        height: 760vh;
+        width: 100%;
+    }
+    .main_img{
+        height: 95vh;
+        width: 100%;
+        border: 1px solid #230802;
+        background-image: url("images/barber_main_cut.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+    .title_1{
+        width: 29vw;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+    .title_2{
+        width: 29vw;
+        color: bisque;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    .recording{
+        height: 10vh;
+        width: 20vw;
+        text-align: center;
+        align-content: center;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    .recording>a{
+        width: 14vw;
+        height: 6vh;
+        background-color: darkorange;
+        display: inline-block;
+        color: black;
+        align-content: center;
+        text-decoration: none;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_us{
+        height: 190vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .About_info{
+        height: 48vh;
+        width: 35vw;
+    }
+    .About_info>p{
+        width: 30vw;
+        color: bisque;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .About_img{
+        height: 48vh;
+        width: 35vw;
+        border: 2px solid bisque;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_img>img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_us_heading{
+        font-size: 2rem;
+        color: bisque;
+        font-weight: 600;
+        font-family:'Times New Roman', Times, serif;
+        text-decoration: underline 2px solid;
+    }
+    .why_us{
+        height: 70vh;
+        width: 100%;
+        background-image: url("images/barber\ chair.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+    }
+    .why_us_heading{
+        text-align: center;
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .why_us_info{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .why_us_info>div{
+        height: 20vh;
+        width: 18vw;
+        color: white;
+        font-size: small;
+        text-align: center;
+    }
+    .why_us_info>div>i{
+        color: bisque;
+        font-size: 1.4rem;
+    }
+    .services{
+        height: 60vh;
+        width: 100%;
+    }
+    .service_heading{
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    .service_gallery{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .service_img{
+        height: 34vh;
+        width: 20vw;
+    }
+    .service_img>img{
+        height: 25vh;
+        width: 100%;
+        border-radius: 6px 6px 6px 6px;
+        border: 2px solid white;
+    }
+    .service_img>p{
+        color: bisque;
+        text-decoration: underline 1px solid bisque;
+    }
+    .service_img>a{
+        color: orange;
+    }
+    .book{
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .book_heading{
+        color: bisque;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+    }
+    form{
+        height: 40vh;
+        width: 30vw;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .form_logo{
+        height: 6vh;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+        align-content: center;
+    }
+    input{
+        margin-left: 60px;
+        margin-top: 10px;
+        height: 5vh;
+        width: 20vw;
+        border-radius: 14px 14px 14px 14px;
+        border: 1px solid;
+    }
+    .name,.number,.date{
+        text-indent: 10px;
+    }
+    .name:focus,.number:focus,.date:focus{
+        outline: none;
+    }
+    .submit{
+        cursor: pointer;
+        background-color: orange;
+    }
+    .gallery{
+        height: 110vh;
+        width: 100%;
+    }
+    .gallery_heading{
+        width: 100%;
+        color: bisque;
+        text-align: center;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+        font-weight: 600;
+    }
+    /* Slideshow container */
+    .slideshow-container {
+        height: 90vh;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        background-color: black;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+       display: none;
+    }
+    .mySlides>img{
+        height: 80vh;
+        width: 80vw;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+        /* Position the "next button" to the right */
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Caption text */
+        .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+    .Reviews{
+        height: 65vh;
+        width: 100%;
+    }    
+    .review_heading{
+        text-align: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .Review_info{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .Review_info>div{
+        height: 40vh;
+        width: 20vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .review_img{
+        height: 8vh;
+        width: 4vw;
+        border: 1px solid white;
+        border-radius: 28px 28px 28px 28px;
+    }
+    .review_name{
+        width: 10vw;
+        color: white;
+        text-align: center;
+    }
+    .info{
+        height: 25vh;
+        width: 15vw;
+        color: white;
+        font-size: 13px;
+    }
+    .Map{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .map_img{
+        height: 60vh;
+        width: 80vw;
+        border: 1px solid black;
+        background-color: black;
+    }
+    .map_img>div{
+        height: 8vh;
+        text-align: center;
+        align-content: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: underline 2px solid bisque;
+    }
+    footer{
+        height: 40vh;
+        width: 100%;
+        border: 2px solid white;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footer_div{
+        height: 15vh;
+        width: 20vw;
+        align-content: center;
+        text-align: center;
+    }
+    .contact_email{
+        color: white;
+    }
+    .contact_us{
+        height: 15vh;
+        width: 20vw;
+    }
+    .contact_us>p{
+        text-align: center;
+        color: white;
+    }
+    .contact_us_heading{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .follow_us{
+        height: 15vh;
+        width: 10vw;
+    }
+    .follow_us_heading{
+        text-align: center;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .socials{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .socials>a{
+        color: white;
+    }
+}
+@media screen and (min-width:1098px) and (max-width:1148px){
+    header{
+        height: 12vh;
+        width: 100%;
+    }
+    nav{
+        height: 10vh;
+        width: 100%;
+        position: fixed;
+        background-color:black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .logo{
+        width: 20vw;
+        color: bisque;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .nav_links{
+        height: 8vh;
+        width: 40vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .nav_links>a{
+        display: inline-block;
+        text-decoration: none;
+        color: gray;
+        height: 4vh;
+        width: 6vw;
+        text-align: center;
+    }
+    .nav_links>a:hover{
+        color: white;
+    }
+    section{
+        height: 760vh;
+        width: 100%;
+    }
+    .main_img{
+        height: 95vh;
+        width: 100%;
+        border: 1px solid #230802;
+        background-image: url("images/barber_main_cut.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+    .title_1{
+        width: 29vw;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+    .title_2{
+        width: 29vw;
+        color: bisque;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    .recording{
+        height: 10vh;
+        width: 20vw;
+        text-align: center;
+        align-content: center;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    .recording>a{
+        width: 14vw;
+        height: 6vh;
+        background-color: darkorange;
+        display: inline-block;
+        color: black;
+        align-content: center;
+        text-decoration: none;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_us{
+        height: 190vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .About_info{
+        height: 48vh;
+        width: 35vw;
+    }
+    .About_info>p{
+        width: 30vw;
+        color: bisque;
+        margin-top: 10px;
+    }
+    .About_img{
+        height: 48vh;
+        width: 35vw;
+        border: 2px solid bisque;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_img>img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_us_heading{
+        font-size: 2rem;
+        color: bisque;
+        font-weight: 600;
+        font-family:'Times New Roman', Times, serif;
+        text-decoration: underline 2px solid;
+    }
+    .why_us{
+        height: 70vh;
+        width: 100%;
+        background-image: url("images/barber\ chair.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+    }
+    .why_us_heading{
+        text-align: center;
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .why_us_info{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .why_us_info>div{
+        height: 20vh;
+        width: 18vw;
+        color: white;
+        text-align: center;
+    }
+    .why_us_info>div>i{
+        color: bisque;
+        font-size: 1.4rem;
+    }
+    .services{
+        height: 60vh;
+        width: 100%;
+    }
+    .service_heading{
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    .service_gallery{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .service_img{
+        height: 34vh;
+        width: 20vw;
+    }
+    .service_img>img{
+        height: 25vh;
+        width: 100%;
+        border-radius: 6px 6px 6px 6px;
+        border: 2px solid white;
+    }
+    .service_img>p{
+        color: bisque;
+        text-decoration: underline 1px solid bisque;
+    }
+    .service_img>a{
+        color: orange;
+    }
+    .book{
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .book_heading{
+        color: bisque;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+    }
+    form{
+        height: 40vh;
+        width: 30vw;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .form_logo{
+        height: 6vh;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+        align-content: center;
+    }
+    input{
+        margin-left: 60px;
+        margin-top: 10px;
+        height: 5vh;
+        width: 20vw;
+        border-radius: 14px 14px 14px 14px;
+        border: 1px solid;
+    }
+    .name,.number,.date{
+        text-indent: 10px;
+    }
+    .name:focus,.number:focus,.date:focus{
+        outline: none;
+    }
+    .submit{
+        cursor: pointer;
+        background-color: orange;
+    }
+    .gallery{
+        height: 110vh;
+        width: 100%;
+    }
+    .gallery_heading{
+        width: 100%;
+        color: bisque;
+        text-align: center;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+        font-weight: 600;
+    }
+    /* Slideshow container */
+    .slideshow-container {
+        height: 90vh;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        background-color: black;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+       display: none;
+    }
+    .mySlides>img{
+        height: 80vh;
+        width: 80vw;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+        /* Position the "next button" to the right */
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Caption text */
+        .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+    .Reviews{
+        height: 65vh;
+        width: 100%;
+    }    
+    .review_heading{
+        text-align: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .Review_info{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .Review_info>div{
+        height: 40vh;
+        width: 20vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .review_img{
+        height: 8vh;
+        width: 4vw;
+        border: 1px solid white;
+        border-radius: 28px 28px 28px 28px;
+    }
+    .review_name{
+        width: 10vw;
+        color: white;
+        text-align: center;
+    }
+    .info{
+        height: 25vh;
+        width: 15vw;
+        color: white;
+    }
+    .Map{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .map_img{
+        height: 60vh;
+        width: 80vw;
+        border: 1px solid black;
+        background-color: black;
+    }
+    .map_img>div{
+        height: 8vh;
+        text-align: center;
+        align-content: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: underline 2px solid bisque;
+    }
+    footer{
+        height: 40vh;
+        width: 100%;
+        border: 2px solid white;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footer_div{
+        height: 15vh;
+        width: 20vw;
+        align-content: center;
+        text-align: center;
+    }
+    .contact_email{
+        color: white;
+    }
+    .contact_us{
+        height: 15vh;
+        width: 20vw;
+    }
+    .contact_us>p{
+        text-align: center;
+        color: white;
+    }
+    .contact_us_heading{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .follow_us{
+        height: 15vh;
+        width: 10vw;
+    }
+    .follow_us_heading{
+        text-align: center;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .socials{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .socials>a{
+        color: white;
+    }
+}
+@media screen and (min-width:1149px) and (max-width:1199px){
+    header{
+        height: 12vh;
+        width: 100%;
+    }
+    nav{
+        height: 10vh;
+        width: 100%;
+        position: fixed;
+        background-color:black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .logo{
+        width: 20vw;
+        color: bisque;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .nav_links{
+        height: 8vh;
+        width: 40vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .nav_links>a{
+        display: inline-block;
+        text-decoration: none;
+        color: gray;
+        height: 4vh;
+        width: 6vw;
+        text-align: center;
+    }
+    .nav_links>a:hover{
+        color: white;
+    }
+    section{
+        height: 760vh;
+        width: 100%;
+    }
+    .main_img{
+        height: 95vh;
+        width: 100%;
+        border: 1px solid #230802;
+        background-image: url("images/barber_main_cut.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+    .title_1{
+        width: 29vw;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+    .title_2{
+        width: 29vw;
+        color: bisque;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    .recording{
+        height: 10vh;
+        width: 20vw;
+        text-align: center;
+        align-content: center;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    .recording>a{
+        width: 14vw;
+        height: 6vh;
+        background-color: darkorange;
+        display: inline-block;
+        color: black;
+        align-content: center;
+        text-decoration: none;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_us{
+        height: 190vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .About_info{
+        height: 48vh;
+        width: 35vw;
+    }
+    .About_info>p{
+        width: 30vw;
+        color: bisque;
+        margin-top: 10px;
+    }
+    .About_img{
+        height: 48vh;
+        width: 35vw;
+        border: 2px solid bisque;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_img>img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .About_us_heading{
+        font-size: 2rem;
+        color: bisque;
+        font-weight: 600;
+        font-family:'Times New Roman', Times, serif;
+        text-decoration: underline 2px solid;
+    }
+    .why_us{
+        height: 70vh;
+        width: 100%;
+        background-image: url("images/barber\ chair.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+    }
+    .why_us_heading{
+        text-align: center;
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .why_us_info{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .why_us_info>div{
+        height: 20vh;
+        width: 18vw;
+        color: white;
+        text-align: center;
+    }
+    .why_us_info>div>i{
+        color: bisque;
+        font-size: 1.4rem;
+    }
+    .services{
+        height: 60vh;
+        width: 100%;
+    }
+    .service_heading{
+        color: bisque;
+        text-decoration: underline 2px solid bisque;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    .service_gallery{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .service_img{
+        height: 34vh;
+        width: 20vw;
+    }
+    .service_img>img{
+        height: 25vh;
+        width: 100%;
+        border-radius: 6px 6px 6px 6px;
+        border: 2px solid white;
+    }
+    .service_img>p{
+        color: bisque;
+        text-decoration: underline 1px solid bisque;
+    }
+    .service_img>a{
+        color: orange;
+    }
+    .book{
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .book_heading{
+        color: bisque;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+    }
+    form{
+        height: 40vh;
+        width: 30vw;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .form_logo{
+        height: 6vh;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+        align-content: center;
+    }
+    input{
+        margin-left: 60px;
+        margin-top: 10px;
+        height: 5vh;
+        width: 20vw;
+        border-radius: 14px 14px 14px 14px;
+        border: 1px solid;
+    }
+    .name,.number,.date{
+        text-indent: 10px;
+    }
+    .name:focus,.number:focus,.date:focus{
+        outline: none;
+    }
+    .submit{
+        cursor: pointer;
+        background-color: orange;
+    }
+    .gallery{
+        height: 110vh;
+        width: 100%;
+    }
+    .gallery_heading{
+        width: 100%;
+        color: bisque;
+        text-align: center;
+        font-size: 2rem;
+        text-decoration: underline 2px solid bisque;
+        font-weight: 600;
+    }
+    /* Slideshow container */
+    .slideshow-container {
+        height: 90vh;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        background-color: black;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+       display: none;
+    }
+    .mySlides>img{
+        height: 80vh;
+        width: 80vw;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+        /* Position the "next button" to the right */
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Caption text */
+        .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+    .Reviews{
+        height: 65vh;
+        width: 100%;
+    }    
+    .review_heading{
+        text-align: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .Review_info{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .Review_info>div{
+        height: 40vh;
+        width: 20vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .review_img{
+        height: 8vh;
+        width: 4vw;
+        border: 1px solid white;
+        border-radius: 28px 28px 28px 28px;
+    }
+    .review_name{
+        width: 10vw;
+        color: white;
+        text-align: center;
+    }
+    .info{
+        height: 25vh;
+        width: 15vw;
+        color: white;
+    }
+    .Map{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .map_img{
+        height: 60vh;
+        width: 80vw;
+        border: 1px solid black;
+        background-color: black;
+    }
+    .map_img>div{
+        height: 8vh;
+        text-align: center;
+        align-content: center;
+        color: bisque;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: underline 2px solid bisque;
+    }
+    footer{
+        height: 40vh;
+        width: 100%;
+        border: 2px solid white;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footer_div{
+        height: 15vh;
+        width: 20vw;
+        align-content: center;
+        text-align: center;
+    }
+    .contact_email{
+        color: white;
+    }
+    .contact_us{
+        height: 15vh;
+        width: 20vw;
+    }
+    .contact_us>p{
+        text-align: center;
+        color: white;
+    }
+    .contact_us_heading{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .follow_us{
+        height: 15vh;
+        width: 10vw;
+    }
+    .follow_us_heading{
+        text-align: center;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .socials{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .socials>a{
+        color: white;
+    }
+}
 @media screen and (min-width:1200px){
     header{
         height: 12vh;
